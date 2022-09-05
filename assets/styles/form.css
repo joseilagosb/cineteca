@@ -1,2 +1,42 @@
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
 .form {
+  width: 80%;
+}
+
+.form .field {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-bottom: 10px;
+}
+
+.form input,
+.form select {
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.form select {
+  background-color: white;
+}
+
+.form .radio-group {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form .submit {
+  margin-top: 10px;
+  color: white;
+  background-color: crimson;
+  border-radius: 10px;
+  padding: 10px;
+  float: right;
 }

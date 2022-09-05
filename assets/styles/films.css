@@ -1,4 +1,30 @@
-.films {
-  border: 2px solid crimson;
-  border-radius: 10px;
+.info {
+  font-size: 24px;
+}
+
+.last-updated {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.films-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.films-table thead tr {
+  background-color: crimson;
+  color: white;
+  text-align: center;
+}
+
+.films-table th,
+.films-table td {
+  padding: 12px 15px;
+}
+
+.films-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  background-color: #f3f3f3;
 }
