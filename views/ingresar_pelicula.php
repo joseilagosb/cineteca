@@ -1,0 +1,1 @@
+<p><?php $nombre_pelicula; ?></p>

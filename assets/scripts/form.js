@@ -1,1 +1,3 @@
-function validar_formulario() {}
+function validar_datos() {
+  return false;
+}

@@ -16,12 +16,12 @@
     <div class="background"></div>
     <div class="content">
       <div class="navbar">
-        <a href="/cineteca/index.php" class="page">Inicio</a>
-        <a href="/cineteca/form.php" class="page">Sugerir una película</a>
-        <a href="/cineteca/films.php" class="page">Taquilla</a>
+        <a href="/cineteca-php/index.php" class="page">Inicio</a>
+        <a href="/cineteca-php/form.php" class="page">Sugerir una película</a>
+        <a href="/cineteca-php/films.php" class="page">Taquilla</a>
       </div>
       <div class="title">Sugiere una película! 🍿</div>
-      <form onsubmit="return validar_datos(this);" action="ingresar_pelicula.php" class="form">
+      <form onsubmit="return validar_datos(this);" action="ingresar_pelicula.php" method="POST" class="form">
         <div class="field">
           <label for="nombre-pelicula">Nombre de la película</label>
           <input id="nombre-pelicula" name="nombre-pelicula"></input>
@@ -63,8 +63,8 @@
           </div>
         </div>
         <div class="field">
-          <label for="month">Año de estreno</label>
-          <input id="month" name="month" type="number" min="1900" max="2099" step="1" value="2013" />
+          <label for="year">Año de estreno</label>
+          <input id="year" name="year" type="number" min="1900" max="2099" step="1" value="2013" />
         </div>
         <div class="field">
           <label for="month">Mes de estreno</label>
@@ -89,7 +89,7 @@
   </div>
 </body>
 
-<script src="scripts/jquery.min.js"></script>
-<script src="scripts/form.js"></script>
+<script src="assets/scripts/form.js"></script>
+<script src="assets/scripts/jquery.min.js"></script>
 
 </html>

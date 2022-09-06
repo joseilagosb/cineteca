@@ -16,9 +16,9 @@
     <div class="background"></div>
     <div class="content">
       <div class="navbar">
-        <a href="/cineteca/index.php" class="page">Inicio</a>
-        <a href="/cineteca/form.php" class="page">Sugerir una película</a>
-        <a href="/cineteca/films.php" class="page">Taquilla</a>
+        <a href="/cineteca-php/index.php" class="page">Inicio</a>
+        <a href="/cineteca-php/form.php" class="page">Sugerir una película</a>
+        <a href="/cineteca-php/films.php" class="page">Taquilla</a>
       </div>
       <div class="title">Cineteca</div>
       <div class="description">Revisa los grandes éxitos del cine mundial desde la comodidad de tu hogar!</div>
