@@ -21,7 +21,10 @@
         <a href="/cineteca-php/films.php" class="page">Taquilla</a>
       </div>
       <div class="title">Sugiere una película! 🍿</div>
-      <form onsubmit="return validar_datos(this);" action="ingresar_pelicula.php" method="POST" class="form">
+      <form onsubmit="return validar_datos();" action="ingresar_pelicula.php" method="POST" class="form">
+        <div class="error-message">
+          <span class="text"></span>
+        </div>
         <div class="field">
           <label for="nombre-pelicula">Nombre de la película</label>
           <input id="nombre-pelicula" name="nombre-pelicula"></input>

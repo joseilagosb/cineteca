@@ -7,6 +7,24 @@
   width: 80%;
 }
 
+.form .error-message {
+  height: 50px;
+  background-color: lightcoral;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.form .error-message .text {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
 .form .field {
   display: flex;
   justify-content: left;
