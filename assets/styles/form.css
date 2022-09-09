@@ -8,7 +8,6 @@
 }
 
 .form .error-message {
-  height: 50px;
   background-color: lightcoral;
   padding: 10px;
   border-radius: 20px;
@@ -23,6 +22,7 @@
   font-size: 16px;
   color: white;
   font-weight: bold;
+  text-align: center;
 }
 
 .form .field {
